@@ -17,9 +17,10 @@ app.use('/api', routes);
 
 app.use(errorHandler);
 
-
+// MongoDB connection
 const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://mahadghauri:mahad12345@ecommerce.svpmkqo.mongodb.net/?appName=Ecommerce';
 
+// Start the server after successful DB connection
 mongoose.connect(MONGO_URI)
 .then(() => {
   console.log('MongoDB is connected successfully');
