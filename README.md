@@ -45,4 +45,8 @@ npm start
 The frontend will be available at [http://localhost:3000](http://localhost:3000).
 
 
-For more details, refer to the `README.md` files in the `client/frontend` and `server/backend` directories.
+### 3. Features 
+- Add new books to the library
+- View a list of all books
+- Edit book details
+- Delete books from the library
